@@ -40,6 +40,7 @@ captures/
 *.iml
 .idea/.gitignore
 .idea/misc.xml
+.idea/kotlinc.xml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -85,3 +86,9 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
